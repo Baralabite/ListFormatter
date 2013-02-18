@@ -4,7 +4,7 @@
  * Description: XRay Detector Plugin
  */
 
-package ubertweakstor.lagfarmfinder;
+package ubertweakstor.listformatter;
 
 import java.util.Collections;
 import java.util.HashMap;
