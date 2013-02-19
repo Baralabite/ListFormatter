@@ -2,12 +2,12 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>LagFarmFinder</groupId>
+  <groupId>ListFormatter</groupId>
   <artifactId>ListFormatter</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <name>ListFormatter</name>
-  <description>Laggy Mob Farm Finder</description>
-  <url>https://github.com/boar401s2/LagFarmFinder</url>
+  <description>/list formatter for bukkit/tekkit</description>
+  <url>https://github.com/boar401s2/ListFormatter</url>
   
   
   
@@ -23,6 +23,10 @@
       <id>central</id>
       <name>Central Repository</name>
       <url>http://repo.maven.apache.org/maven2</url>
+    </repository>
+    <repository>
+	<id>vault-repo</id>
+	<url>http://ci.herocraftonline.com/plugin/repository/everything</url>
     </repository>
   </repositories>
   
@@ -48,6 +52,11 @@
       <version>1.2.5-R5.0</version>
       <type>jar</type>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>net.milkbowl.vault</groupId>
+        <artifactId>Vault</artifactId>
+        <version>1.2.14-SNAPSHOT</version>
     </dependency>
   </dependencies>
   
