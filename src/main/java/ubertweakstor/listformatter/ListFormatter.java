@@ -35,8 +35,8 @@ public class ListFormatter extends JavaPlugin {
     public void onEnable() {
         initEvents();
         initPermissions();
-        log.info("Enabled.");
         getConfig().options().copyDefaults();
+        log.info("Enabled.");        
     }
     
     public void initEvents(){
