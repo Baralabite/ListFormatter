@@ -1,4 +1,4 @@
-XRazer
+ListFormatter
 ======
 
-Lag Finder for Tekkit/Craftbukkit
+Player List Formatter for Tekkit/Bukkit
